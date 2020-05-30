@@ -1,0 +1,626 @@
+body{
+	margin: 0px;
+}
+
+#name{
+margin-top: 14vh;
+
+}
+
+#myname{
+	font-size: 3rem;
+	color: white;
+	letter-spacing: 0.1rem;
+	font-weight: bolder;
+	font-family: sans-serif;
+	margin-bottom: 0.5rem;
+}
+#body-header{
+	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	background-position: center;
+	opacity: 0.8;
+	height: 65vh;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* Navigation Menu  */
+
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 15px 15px 15px 0px;
+}
+
+.nav-menu li a{
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a{
+	 color: white;
+    text-decoration: none;
+    
+}
+
+.nav-menu li a:hover{
+	color: lightgrey;
+	 border-bottom: 1px solid white;
+}
+.text-center{
+	text-align: center;
+}
+
+/* Navigation bar will render in dropdown when screen is small */
+
+.bars{
+    color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+}
+
+.bars i {
+    font-size: 2rem;
+}
+
+.dropdown-list{
+    margin: 0;
+    display: none;
+    background-color: #828470;
+    box-shadow: 0px 4px 8px 1px #535547;
+}
+
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+
+.dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li{
+    margin: 0.4rem 0px;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+/* Social Link Section */
+
+.social-link li a i{
+	border-radius: 50%;
+	padding: 6px;
+	font-size: 1rem;
+}
+	
+.social-link li a i:hover{
+	box-shadow:  0px 0px 6px 4px rgba(230, 196, 196, 0.3)
+	
+}
+
+/* About Section */
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+
+}
+
+#about-para{
+    padding: 10px;
+	width: 80%;
+	margin-left: -15%;
+	margin-top: 2%;
+	height: auto;
+    text-align: justify;
+    color: grey;
+    line-height: 30px;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+	margin-bottom: 20px;
+
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+/* Section for Different items  */
+
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+.section-header {
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 200;
+}
+
+.section-header span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 1rem;
+}
+
+/* Skill Section */
+
+.skill-display{
+	width: 75%;
+	padding: 5px;
+	margin-top: -4%;
+	margin-bottom: 4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-progress {
+    width: 10rem;
+    height: 2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    border: 1px solid dimgray;
+	margin: 20px;
+}
+
+.skill-progress>div{
+	 border-radius: 20px 0px 0px 20px;
+}
+
+.skill-name1 span{
+	display: inline-block;
+	margin-top: 4px;
+	margin-left: 15px; 
+	font-size: 1rem;
+	font-weight: 700;
+	color: white;
+}
+
+/* Skill Percentage Section */
+
+.seventyfour-percent,.mb-darkcyan{
+	width: 74%;
+	height: inherit;
+	background-color: darkcyan;
+}
+
+.seventy-percent,.mb-blueviolet{
+	width: 70%;
+	height: inherit;
+	background-color: blueviolet;
+}
+
+ .seventytwo-percent,.mb-goldenrod{
+	width: 72%;
+	height: inherit;
+	background-color:goldenrod;
+}
+
+.seventyfive-percent,.mb-orangered{
+	width: 75%;
+	height: inherit;
+	background-color:orangered;
+}
+
+.sixtyfive-percent,.mb-royalblue{
+	width: 65%;
+	height: inherit;
+	background-color:royalblue;
+}
+
+.seventyone-percent,.mb-darkslategrey{
+	width: 71%;
+	height: inherit;
+	background-color:darkslategrey;
+}
+
+.sixty-percent,.mb-red{
+	width: 60%;
+	height: inherit;
+	background-color: red;
+}
+
+.fifty-percent,.mb-darkturquoise{
+	width: 50%;
+	height: inherit;
+	background-color: darkturquoise;
+}
+
+.fiftyfive-percent,.mb-darkolivegreen{
+	width: 55%;
+	height: inherit;
+	background-color: darkolivegreen;
+}
+
+.eighty-percent,.mb-darksalmon{
+	width: 80%;
+	height: inherit;
+	background-color:darksalmon;
+}
+
+.fifty-five-percent,.mb-purple{
+	width: 55%;
+	height: inherit;
+	background-color:purple;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+/* Education Section */
+
+.degree-name{
+	font-size: 1.4rem;
+	color: #2857a4;
+	text-align: right;
+	margin-top: 0;
+	font-weight: bolder;
+
+}
+
+.degree-college{
+	
+	margin-top: -4%;
+	text-align: right;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.degree-year{
+	color: #9e9b9b;
+    font-weight: 100;
+    color: grey;
+	font-size: 1rem;
+	margin-top: -5%;
+	text-align: right;
+}
+
+.degree-description {
+    font-size: 1.2rem;
+    padding: 2px;
+    color: darkgrey;
+	line-height: 1.2;
+	text-align: justify;
+	font-weight: 400;
+}
+
+.timeline{
+	position: relative;
+	width: 75%;
+	margin-top: -2%;
+	margin-bottom: 30px;
+}
+
+#timeline-box{
+
+	position: relative;
+	width: 40%;
+	left: 5%;
+    padding: 8px;
+	min-height: 150px;
+	margin: 5px;
+}
+
+#timeline-box:nth-child(2n){
+	left: 53%;
+}
+
+#timeline-divider{
+	position: absolute;
+	top: 8%;
+	width: 0;
+	border: 2px dashed lightgrey;
+	left: 49.5%;
+	height: 85%;
+}
+
+#timeline-traveller{
+	position: sticky;
+	top: 25%;
+	transform: rotate(90deg);
+	z-index: 2;
+	color: blue;
+}
+
+#timeline-logo{
+	position: absolute;
+	width: 50px;
+	overflow: hidden;
+}
+
+#timeline-logo img{
+	width: 100%;
+}
+
+#timeline-box:nth-child(2n+1)::after{
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	top: 20%;
+	right: -7%;
+	background-color: red;
+	z-index: 1;
+}
+
+#timeline-box:nth-child(2n)::after{
+	content: '';
+	position: absolute;
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	top: 25%;
+	left: -10.5%;
+	background-color: red;
+	z-index: 1;
+}
+
+
+
+/* PortFolio Section */
+
+/* .portfolio-display{
+	padding: 0 50px;
+    margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.portfolio-image{
+	position: relative;
+	background-size: cover;
+	max-width: 300px;
+	margin: 10px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.portfolio-image img{
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio-details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: serif;
+    padding-top: 30%;
+}
+
+.portfolio-image:hover{
+    box-shadow: 0 0 10px blue;
+}
+
+.portfolio-image:hover .portfolio-details{
+    background-color: #80808078;
+    color: white;
+} */
+
+/* Contact Section */
+
+#contact{
+	background: linear-gradient(#2857a4,#403066);
+	color: white;
+	padding-bottom: 40px;
+}
+
+#contact h1 span{
+    color: white;
+}
+
+#contact-container{
+	display: flex;
+}
+
+#contact-form{
+	margin-left: 25%;
+}
+
+.contact-form-container{
+	width: 50%;
+}
+
+.contact-form-container h3,p{
+	margin-left: 27%;
+	background: transparent;
+	margin-top: -2%;
+}
+
+#contact-form input,textarea{
+	max-width: 90%;
+	border: 0px solid transparent;
+	border-bottom: 2px solid white;
+	padding: 4px 10px;
+	margin: 15px;
+	width: 90%;
+	line-height: 1.6;
+	font-size: 1.05rem;
+	background: transparent;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#my-info{
+	width: 50%;
+	margin-top: -2%;
+	margin-left: 8%;
+}
+
+.my-info-container i{
+ 	margin: 4px;
+	padding: 2px;
+}
+
+.contact-social-link a i{
+	font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+	border-radius: 40%;
+}
+
+.contact-social-link a i:hover{
+	color: #13386fe0;
+	background: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width:768px){
+	#timeline-divider{
+		left: 2%;
+	}
+	#timeline-box{
+		left: 12%;
+		
+		/* or mark it !important by this(left:12% !important) so that no need to use nth child */
+	}
+	#timeline-box:nth-child(2n){
+		left: 12%;
+		
+	}
+	#timeline-box:nth-child(2n+1)::after{
+		left: -26%;
+	}
+	#timeline-box:nth-child(2n)::after{
+		left: -26%;
+	}
+	.degree-description{
+		text-align: center;
+	}
+	.degree-name{
+		margin-top: 20%;
+	}
+	#contact-form {
+		width: 150%;
+        margin-left: 10%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+    }
+
+	#my-info {
+        width: 100%;
+		margin: 10%;
+		/* margin-left: 10%; */
+    }
+
+    #contact-form-container>h3,p{
+		width: 100%;
+		font-weight: bold;
+		margin-left: 18%;
+	}
+	
+
+}
+
+@media only screen and (max-width: 572px) {
+    
+    .timeline-box {
+        width: 100%;
+        left: 10% !important;
+    }
+
+    .bars {
+        display: block;
+    }
+    
+    
+    .nav-menu {
+        display: none;
+    } 
+}
